@@ -1,11 +1,11 @@
 $(document).ready(function() {
 	$.getScript("assets/plugins/backstretch/jquery.backstretch.min.js", function(){
 		$(".fullscreen-static-image").backstretch([
-	  "assets/img/bg/img11.jpg", "assets/img/bg/img1.jpg",
+	  "assets/img/bg/2.jpg", "assets/img/bg/3.jpg",
 	  ], {duration: 8000, fade: 800});
 		$(".fullscreen-static-image1").backstretch([
-	  "assets/img/bg/img10.jpg",
-	  ], {duration: 8000, fade: 800});	  
+	  "prostreetlogo2light.png",
+	  ], {duration: 8000, fade: 800});
 		$(".fullscreen-static-image2").backstretch([
 	  "assets/img/bg/img4.jpg",
 	  ], {duration: 8000, fade: 800});
