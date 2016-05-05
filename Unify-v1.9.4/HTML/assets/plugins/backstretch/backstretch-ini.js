@@ -1,7 +1,7 @@
 $(document).ready(function() {
 	$.getScript("assets/plugins/backstretch/jquery.backstretch.min.js", function(){
 		$(".fullscreen-static-image").backstretch([
-	  "assets/img/bg/2.jpg", "assets/img/bg/3.jpg",
+	  "assets/img/bg/bg3.png", "assets/img/bg/prostreetbg2x.png",
 	  ], {duration: 8000, fade: 800});
 		$(".fullscreen-static-image1").backstretch([
 	  "prostreetlogo2light.png",
